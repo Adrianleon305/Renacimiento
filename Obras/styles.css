@@ -1,0 +1,93 @@
+body {
+    background-color: #6c9eab;
+    background-image: url("https://transparenttextures.com/patterns/arabesque.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-blend-mode: multiply;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+
+  }
+
+
+
+hr {
+    border-bottom: 3px solid #8b4513;
+}
+
+  
+  h1, h2 {
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3.7em;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    text-align: left;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: justify;
+    font-size: 2em !important;
+    margin: 30px;
+    font-size: 25px;
+    color: #000000;
+  }
+  
+  table {
+    width: 99%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(222, 62, 185, 0.078);
+    box-shadow: 0 2px 8px rgba(55, 1, 35, 0.1);
+  }
+  
+  th, td {
+    border: 1px solid #ff00a6;
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  th {
+    text-align: center;
+    background-color: rgba(251, 211, 255, 0.406);
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  td p {
+    text-align: justify;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .left-align {
+
+text-align: end;
+  }
+  
+.bio {
+  margin-left: 8em;
+  max-width: 80%;
+}
+
+
+
+  .decorative-border {
+    border: 3px solid #e608a7;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgba(255, 239, 213, 0);
+    box-shadow: 0 4px 12px rgba(255, 98, 0, 0.319);
+  }
