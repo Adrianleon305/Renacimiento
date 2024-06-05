@@ -1,0 +1,428 @@
+#home {
+  z-index: -1;
+  clip-path: url(#cache);
+}
+
+#background-container {
+  position: fixed;
+  background-color: #d3d3d354;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+
+
+
+#red {
+  fill: none;
+  opacity: 0.15;
+  stroke: #ff000087;
+  stroke-width: 12;
+  stroke-miterlimit:10;
+  animation: show 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; 
+}
+
+#blue {
+  fill: none;
+  opacity: 0.15;
+  stroke: #1e00ff;
+  stroke-width: 12;
+  stroke-miterlimit:10;
+  animation: show 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#light-blue {
+  fill: none;
+  opacity: 0.15;
+  stroke: #ee00c3;
+  stroke-width: 6;
+  stroke-miterlimit:10;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 800;
+  animation: draw 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;    
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+ }
+    }
+
+@keyframes show {
+  0% {
+    opacity: 0.15;
+ }
+  50% {
+    opacity: 0.2;
+ }
+  100% {
+    opacity: 0.15;
+ }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.que_es{
+    .contenedor0 {
+        margin-left: 43px;
+        display: flex;
+        align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    }
+    h1.descripcion {
+      color: #000000;
+      margin-right: 48%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    }
+    .image0 {
+
+    width: 100%;
+    margin-right: 5em;
+    margin-top: -5%;
+    border-radius: 15px; /* Puedes ajustar el valor según tu preferencia */
+    }
+    p.pinicio0 {
+        text-align: justify;
+        margin: 0 0 20px 0;
+        line-height: 1.6;
+        line-height: 1.5em; /* Interlineado de 1.2 veces la altura de la fuente */
+      margin-top: 0.8em;
+      color: #000000;
+      margin-left: auto;
+      margin-right: 10%;
+    }
+  }
+
+
+
+.par2 {
+  margin: 5px;
+  text-align: justify;
+}
+
+
+
+  h1 { font-family: MedievalSharp;; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: MedievalSharp; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: MedievalSharp; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: MedievalSharp; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: MedievalSharp; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+
+  p {
+      line-height: 1.7em !important; /* Interlineado de 1.2 veces la altura de la fuente */
+  }
+
+
+
+
+
+
+
+
+
+
+.container2 {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  opacity: 0.9;
+  box-shadow: 0px 0px 10px rgba(62, 11, 202, 0.499);
+  border-radius: 10px;
+}
+
+.titulo2 h1 {
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif !important;
+  text-align: center;
+  color: #7b4b03;
+  margin-bottom: 15px;
+}
+
+.tabla {
+  display: table;
+  width: 100%;
+}
+
+.fila {
+  display: table-row;
+}
+
+.celda-titulo,
+.celda-contenido {
+
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid #042cf66d;
+}
+
+.celda-titulo {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.celda-contenido ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.celda-contenido li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.celda-contenido li strong {
+  text-decoration: underline;
+}
+
+
+
+  
+.container4 {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.titulo4 h1 {
+  text-align: center;
+  color: #333;
+}
+
+.situacion4 {
+  font-family:Arial, Helvetica, sans-serif !important;
+  font-size: 50px;
+}
+
+.cuadros4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.cuadro4 {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #e32d00;
+  border-radius: 5px;
+}
+
+.cuadro4 h1 {
+  margin-bottom: 10px;
+}
+
+.cuadro4 p {
+  margin-bottom: 15px;
+}
+
+.cuadro4 img {
+  align-items: center;
+  display: block;
+  width: 70%;
+  border-radius: 5px;
+}
+.pinicio4{
+  font-size: 17px;
+}
+
+
+
+
+
+  
+.organizador6 {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff00;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.seccion {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+.tabla-libros-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.tabla-libros {
+  width: 80%;
+  border-collapse: collapse;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+}
+
+.tabla-libros th, .tabla-libros td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.tabla-libros th {
+  text-align: center;
+  background-color: #6647e31d;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.tabla-libros tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabla-libros tr:hover {
+  background-color: rgba(63, 81, 181, 0.1);
+  cursor: pointer;
+}
+
+.tabla-libros td {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.tabla-libros .img-col {
+  width: 70px;
+  text-align: center;
+}
+
+.tabla-libros img {
+  width: 60px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.tabla-libros td:first-child, 
+.tabla-libros th:first-child {
+  text-align: center;
+}
+
+.tabla-libros-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+/* Estilos mejorados para la novela picaresca */
+.novela-picaresca {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em; /* Aumento del tamaño de texto */
+}
+
+.contenedor6 {
+  margin: 0 auto; /* Centra horizontalmente el contenido */
+  max-width: 1000px; /* Ancho máximo del contenido */
+}
+
+.titulo6 {
+  color: #000000;
+  text-align: center;
+  font-size: 45px;
+}
+
+.descripcion6 {
+  margin-top: 30px;
+}
+
+.descripcion6 h2 {
+  font-size: 32px; /* Aumento del tamaño de texto */
+  margin-bottom: 10px;
+}
+
+.intro6 {
+  margin-bottom: 20px;
+}
+
+.caracteristicas6 {
+  margin-top: 30px;
+  border: 2px solid #3f51b53f; /* Cuadro alrededor del apartado */
+  padding: 20px; /* Espaciado interno del cuadro */
+  line-height: 1.6; /* Ajuste de espaciado entre líneas */
+}
+
+.caracteristicas6 h2 {
+  font-size: 28px; /* Aumento del tamaño de texto */
+  margin-bottom: 10px;
+  border-bottom: 2px solid #006eb7; /* Línea de separación */
+  padding-bottom: 5px;
+}
+
+.caracteristicas6 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.caracteristicas6 ul li {
+  margin-bottom: 10px;
+}
+
+
